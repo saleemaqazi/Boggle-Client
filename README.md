@@ -1,33 +1,43 @@
-# BoggleClient
+# Boggle Client
 
-BoggleClient is a C# application that allows users to play the game of Boggle against other users through an online server. It provides a graphical user interface (GUI) for registering a nickname, joining games, submitting words, and displaying game results. The Boggle Client works in conjuction with the Boggle Server from my Github page. This program was written by Professor Joeseph Zachary and students Saleema Qazi and Spencer Fajardo.
-
-## Usage
-
-1. Launch the BoggleClient application.
-2. The main window will be displayed, where you can enter your desired nickname in the provided text box.
-3. Click the "Register" button to register your nickname with the Boggle server.
-4. Once registered, you can request to join a game by selecting the desired time limit and clicking the "Request Game" button.
-5. If a game is found, the Boggle board will be displayed, along with the opponent's nickname and the countdown timer.
-6. Use the mouse to select adjacent letters on the board and form words.
-7. To submit a word for scoring, enter the word in the text box and click the "Submit" button.
-8. The scores of both players will be updated, and the timer will continue counting down.
-9. You can refresh the game board by clicking the "Refresh" button to see the updated scores and time remaining.
-10. Once the game is completed, a message box will be displayed with the final scores and words played by both players.
-11. Click "OK" to clear the board and start a new game.
+This repository contains the client-side implementation of a Boggle game application, developed as part of a university project. The Boggle client allows users to play Boggle with other players online through a graphical user interface (GUI).
 
 ## Features
 
-- Registration: Users can register their nickname with the Boggle server to participate in games.
-- Game Requests: Users can request to join a Boggle game with a specified time limit.
-- Game Board: The application displays the Boggle board, opponent's nickname, and countdown timer during an active game.
-- Word Submission: Users can submit words formed from selected letters on the Boggle board for scoring.
-- Score and Timer Updates: The application updates the player scores and time remaining in real-time during a game.
-- Game Completion: When the game is finished, the final scores and words played by both players are displayed.
-- User Interaction: The GUI allows users to interact with the application through buttons and text boxes.
+- User registration: Users can register their nickname to participate in the game.
+- Game requests: Users can request to join a game and specify the time limit for each round.
+- Boggle board display: The GUI displays the Boggle board, which is dynamically updated during the game.
+- Word submission: Users can submit words they find on the Boggle board for scoring.
+- Game status updates: The GUI periodically refreshes to show the current score, remaining time, and game state.
+- Game completion screen: At the end of each game, a screen is displayed showing the final scores and the words played by each player.
+
+## Technologies Used
+
+- C#: The client application is developed using C# programming language.
+- .NET Framework: The .NET Framework is used to build the client application.
+- Windows Forms: The graphical user interface is implemented using Windows Forms.
+
+## Getting Started
+
+To run the Boggle client on your local machine, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/your-username/boggle-client.git`
+2. Open the project in your preferred C# development environment (e.g., Visual Studio).
+3. Build the solution to resolve any dependencies.
+4. Run the application.
+
+Note: The Boggle client requires the Boggle server to be running for online multiplayer functionality.
+
+## Usage
+
+Upon launching the Boggle client, the GUI will be displayed, providing options for user registration and game participation. Follow the on-screen instructions to register a nickname, request a game, submit words, and interact with the game board. The GUI will automatically update with game status information.
+
+## Acknowledgments
+
+- This project was developed as part of a university class, led by Professor Joeseph Zachary.
+- Thanks to Spencer Fajardo for contributing to the development of this project.
 
 ## Contact
 
-If you have any questions, suggestions, or issues, please contact Saleema Qazi at saleemasqazi@gmail.com.
+For any inquiries or questions, please contact Saleema Qazi at saleemasqazi@gmail.com.
 
-I hope you enjoy our Boggle game!
